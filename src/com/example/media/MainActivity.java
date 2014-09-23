@@ -54,7 +54,7 @@ public class MainActivity extends ActionBarActivity {
 		  
 		  
 		  
-	seekbar = (SeekBar)findViewById(R.id.seekBar);
+	seekbar = (SeekBar)findViewById(R.id.seekBar);;;;;;
 		playButton = (Button)findViewById(R.id.buttonPlay);
 		pauseButton = (Button)findViewById(R.id.buttonpause);
 		stopbutton=(Button)findViewById(R.id.buttonStop);
@@ -112,7 +112,7 @@ public class MainActivity extends ActionBarActivity {
 					    -04.0f, 140.0f);
 			   animation2 = new TranslateAnimation(0.0f, 0.0f,
 					    -04.0f,180.0f);
-		  animation.setDuration(5000);
+		  animation.setDuration(5000);;;;;;;
 		  animation.setRepeatCount(5);
 		  animation.setRepeatMode(2);
 		  animation.setFillAfter(true);
